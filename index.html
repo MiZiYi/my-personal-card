@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">  <!-- 中文网页，lang设为zh-CN -->
+<head>
+    <meta charset="UTF-8">  <!-- 字符编码，确保中文正常显示 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- 适配手机屏幕 -->
+    <title>苏轲的技术名片</title>  <!-- 网页标题，显示在浏览器标签栏 -->
+    <!-- 简单 CSS 样式，让页面更美观（可自定义颜色和字体） -->
+    <style>
+        /* 全局样式：设置页面字体、宽度、居中 */
+        body {
+            font-family: "Microsoft YaHei", Arial, sans-serif;  /* 中文常用字体 */
+            max-width: 800px;  /* 页面最大宽度，避免在宽屏上太分散 */
+            margin: 0 auto;  /* 上下边距0，左右自动，实现页面居中 */
+            padding: 30px;  /* 页面内边距，避免内容贴边 */
+            background-color: #f5f5f5;  /* 背景色，浅灰色更舒适 */
+        }
+        /* 标题样式：设置颜色和下划线 */
+        h1 {
+            color: #2c3e50;  /* 深灰色，不刺眼 */
+            border-bottom: 2px solid #3498db;  /* 蓝色下划线，区分标题 */
+            padding-bottom: 10px;  /* 标题下内边距，避免文字贴下划线 */
+        }
+        /* 二级标题样式：设置颜色 */
+        h2 {
+            color: #3498db;  /* 蓝色，与一级标题下划线颜色一致 */
+            margin-top: 30px;  /* 上外边距，分隔不同板块 */
+        }
+        /* 技能列表样式：去除默认圆点，添加背景 */
+        .skills {
+            list-style-type: none;  /* 去除列表默认圆点 */
+            padding: 0;  /* 去除默认内边距 */
+            display: flex;  /* 横向排列技能 */
+            flex-wrap: wrap;  /* 超出宽度自动换行 */
+            gap: 10px;  /* 技能之间的间距 */
+        }
+        .skills li {
+            background-color: #ecf0f1;  /* 浅灰色背景 */
+            color: #2c3e50;  /* 深灰色文字 */
+            padding: 8px 15px;  /* 内边距，让技能块更饱满 */
+            border-radius: 20px;  /* 圆角，更美观 */
+        }
+        /* 链接样式：设置颜色和 hover 效果 */
+        a {
+            color: #3498db;  /* 蓝色链接 */
+            text-decoration: none;  /* 去除默认下划线 */
+        }
+        a:hover {
+            color: #2980b9;  /* 鼠标悬停时，链接颜色加深 */
+            text-decoration: underline;  /* 悬停时显示下划线，提示可点击 */
+        }
+    </style>
+</head>
+<body>
+    <!-- 姓名和头衔 -->
+    <h1>苏轲 - 售前工程师</h1>
+    
+    <!-- 个人简介 -->
+    <p>毕业于西安邮电大学管理科学与工程专业，5年售前工程师经验，擅长prd和解决方案编写。</p>
+    
+    <!-- 技能列表 -->
+    <h2>技能列表（Skills）</h2>
+    <ul class="skills">
+        <li>Python</li>
+        <li>Git</li>
+        <li>GitHub Actions</li>
+        <li>TensorFlow</li>
+        <li>PyTorch</li>
+        <li>SQL</li>
+    </ul>
+    
+    <!-- 项目经历 -->
+    <h2>项目经历（Projects）</h2>
+    <p>1. <a href="https://github.com/zhangsan123/ml-project" target="_blank">机器学习分类项目</a> - 用PyTorch实现图像分类模型，准确率达98%，开源到GitHub。</p>
+    <p>2. <a href="https://github.com/zhangsan123/auto-script" target="_blank">自动化脚本集</a> - 编写Python脚本实现数据清洗和报表生成，提升工作效率50%。</p>
+    
+    <!-- 联系方式 -->
+    <h2>联系方式（Contact）</h2>
+    <p>GitHub：<a href="https://github.com/MiZiYi" </a></p>
+    <p>LinkedIn：<a href="https://linkedin.com/in/zhangsan" target="_blank">张三（Zhang San）</a></p>
+    <p>邮箱：<a href="sukeforever@163.com">sukeforever@163.com</a></p>
+</body>
+</html>
+    
